@@ -218,6 +218,19 @@ h4.card-title
     background-color: #E6E6E6;
 }
 
+section.black-one-bg
+{
+    background: #1B1B1B;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+section.black-two-bg
+{
+    background: #000000;
+    color: #fff;
+}
+
 .card-vertical
 {
     box-shadow:2px 2px 20px rgba(0,0,0,0.3);
@@ -234,10 +247,14 @@ h4.card-title
 .card-img-top
 {
     width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
+    /*border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);*/
 }
 
+.pink-letter
+{
+    color: #E3007C;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
