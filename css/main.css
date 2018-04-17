@@ -102,6 +102,11 @@ textarea {
     background-color: #E3007C;
 }
 
+.item2 img
+{
+    max-width: 61% !important;
+}
+
 .font-white
 {
     color: #fff;
@@ -255,6 +260,104 @@ section.black-two-bg
 {
     color: #E3007C;
 }
+
+.non-list
+{
+    list-style: none;
+}
+
+.mini-card
+{
+    height: 100px;
+    overflow: hidden;
+}
+
+.mini-card-img
+{
+    max-width: 30%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    float: left;
+}
+
+.mini-card-body
+{
+    display: block;
+}
+
+.mini-card-title
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mini-card-title-blak
+{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    #mobile-hidden
+    {
+        display: none;
+    }
+
+    #mobile-menu
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #one-menu
+    {
+        display: flex;
+        justify-content: center;
+        float: none !important;
+    }
+
+    #social-media
+    {
+        display: flex;
+        justify-content: center;
+        float: none !important;
+    }
+
+    #gallery
+    {
+        display: none;
+    }
+    
+    .card-image
+    {
+        display: none;
+    }
+
+    .footer-menu
+    {
+        text-align: center;
+    }
+
+    #form-footer
+    {
+        text-align: center;
+    }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
